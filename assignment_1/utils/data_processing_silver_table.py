@@ -147,4 +147,4 @@ def process_silver_table(snapshot_date_str, bronze_lms_directory, silver_lms_dir
 
         results[name] = df
         
-    return results['loan_daily'] 
+    return results
