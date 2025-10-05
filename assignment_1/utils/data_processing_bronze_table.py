@@ -46,4 +46,4 @@ def process_bronze_table(snapshot_date_str, bronze_lms_directory, spark):
     
         results[name] = df
         
-    return results['loan_daily']
+    return results
